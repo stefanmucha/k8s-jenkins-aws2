@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: muchast2/stefan-docker-demo:stefan-docker-demo
+          image: muchast2/stefan-docker-demo:latest
           ports:
             - containerPort: 8080
           env:
