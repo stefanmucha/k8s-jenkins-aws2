@@ -10,4 +10,8 @@ public class JhooqDockerDemoController {
     public String hello() {
         return "Hello - It's working?!!";
     }
+    @GetMapping("/hello2")
+    public String hello2() {
+        return "Hello - It's working22?!!";
+    }
 }
