@@ -9,4 +9,4 @@ services:
     volumes:
       - /data/stefan-springboot-container
     ports:
-      - "8080-8100:8080"
+      - "8080-8100:8888"
